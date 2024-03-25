@@ -1,0 +1,76 @@
+{
+    "error": {
+        "ConnectionDBError": {
+            "description": "Data base connection error",
+            "code": "1"
+        },
+        "MissingParameters": {
+            "description": "Missing required information",
+            "code": "1"
+        },
+        "ElementNotFound": {
+            "description": "Element not found in db",
+            "code": "1"
+        },
+        "MongoURIUndefined": {
+            "description": "Mongo URI is undefined",
+            "code": "1"
+        },
+        "EncryptError": {
+            "description": "Encryption error",
+            "code": "1"
+        },
+        "CompareEncryptionError": {
+            "description": "Error comparing encrypted passwords",
+            "code": "1"
+        },
+        "UserNotActive": {
+            "description": "User is not active",
+            "code": "1"
+        },
+        "InvalidCredentials": {
+            "description": "Credentials entered are invalid",
+            "code": "1"
+        },
+        "RequestDBError": {
+            "description": "Error in request to db",
+            "code": "1"
+        },
+        "InvalidParameters": {
+            "description": "Invalid parameters",
+            "code": "1"
+        }
+    },
+    "success": {
+        "RequestSuccess": {
+            "description": "Endpoint request successfull",
+            "code": "0"
+        },
+        "ElementDeleted": {
+            "description": "Element deleted successfully from db",
+            "code": "0"
+        },
+        "ElementUpdated": {
+            "description": "Element updated successfully in db",
+            "code": "0"
+        },
+        "RegisterSuccessfull": {
+            "description": "User register successfully",
+            "code": "0"
+        },
+        "LogoutSuccessfull": {
+            "description": "User logout successfully",
+            "code": "0"
+        },
+        "LoginSuccessfull": {
+            "description": "User logged in successfully",
+            "code": "0"
+        }
+    },
+    "warning": {
+        "UserExist": {
+            "description": "User already exists",
+            "code": "3"
+        }
+    }
+}
